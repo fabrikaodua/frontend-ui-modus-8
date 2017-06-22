@@ -1,0 +1,214 @@
+
+.page-footer {
+      position: relative;
+	  width: 100%;
+	  height: 350px;
+	  background: url(./page-png/footer-border.png) repeat-x;
+	  background-color: #76c7c0;
+}
+
+
+.page-footer .content-footer {
+	  display: flex;
+}
+
+
+
+.page-footer .tag-coll {
+      height: 250px;
+}
+
+.page-footer .page-content-coll-one {
+      background: url(./page-logo/modus.png) no-repeat;
+      width: 370px;
+	  margin-right: 30px;
+	  margin-top: 50px;
+}
+
+.page-footer .page-content-coll-one .text {
+      padding-top: 50px;
+      color: #ffffff;
+      font-size: 13px;
+      padding-bottom: 30px;
+}
+
+
+
+.page-footer .page-content-coll-one .phones {
+	  color: #ffffff;
+      font-size: 20px;
+      margin-bottom: 7px;
+	  display: flex;
+}
+
+.page-footer .page-content-coll-one .phone {
+	   margin-right: 20px;
+}
+
+.page-footer .page-content-coll-one .digits {
+       word-spacing: 5px;
+}
+
+.page-footer .page-content-coll-one .mail {
+      word-spacing: 20px;
+      color: #ffffff;
+      font-size: 20px;
+}
+
+
+.page-footer .page-content-coll-two {
+      color: #ffffff;
+	  width: 170px;
+	  margin-right: 30px;
+	  margin-top: 44px;
+}
+
+.page-footer .page-content-coll-two .company {
+      color: #777777;
+      font-size: 20px;
+
+}
+.page-footer .page-content-coll-two .company-one {
+      font-size: 13px;
+      list-style-type: none;
+	  margin-top: 22px;
+	  margin-left: -10px;
+}
+
+.page-footer .page-content-coll-two .companymenu {
+      word-spacing: 7px; 
+}
+
+.page-footer .page-content-coll-free {
+      color: #ffffff;
+	  width: 170px;
+	  margin-right: 30px;
+	  margin-top: 44px;
+}
+
+.page-footer .page-content-coll-free .community {
+	  font-size: 20px;
+      color: #777777;
+}
+
+.page-footer .page-content-coll-free .community-one {
+      font-size: 13px;
+      list-style-type: none;
+	  margin-top: 22px;
+	  margin-left: -10px;
+}
+
+.page-footer .page-content-coll-free .communitymenu {
+      word-spacing: 7px;
+	  
+}
+
+
+
+.page-footer .blog-from {
+	  font-family: 'Open Sans';
+	  color: #ffffff;
+	  font-size: 20px;
+	  padding-bottom: 24px;
+	  list-style-type: none;
+	  position: relative;
+}
+
+.page-footer .from {
+	  position: absolute;
+	  left: 0;
+	  top: 0;
+}
+
+.page-footer .blog {
+      position: absolute;
+	  left: 80px;
+}
+
+
+.page-footer .page-content-coll-four .image-one img{
+	  float: left;
+      height: 70px;
+      width: 70px;
+      overflow: hidden;
+      margin-right: 14px;
+}
+
+.page-footer .page-content-coll-four .imageblog {
+      width: 330px;
+	  margin-top: 51px;
+}
+
+.page-footer .page-content-coll-four .text {
+      margin-top: 35px; 
+	  color: #ffffff;
+	  font-family: 'Open Sans';
+}
+
+.page-footer .page-content-coll-four .text-one {
+	  color: #ffffff;
+	  font-family: 'Open Sans';
+}
+
+
+
+.page-footer .page-content-coll-four .image-two img{
+      float: left;
+      height: 70px;
+      width: 70px;
+      overflow: hidden;
+      margin-right: 14px;
+      
+}
+
+.page-footer .page-bottom-line {
+      width: 100%;
+	  height: 50px; 
+	  background-color: #6ab3ac;
+	  margin-top: 50px;
+}
+
+.page-footer .bottom-fotter {
+      padding-top: 21px;
+}
+
+.page-footer .page-bottom-line .ModusVersus {
+	  position: relative;
+	  font-size: 12px;
+      color: #ffffff;
+}
+
+.page-footer .page-bottom-line .facebook {
+      width: 21px;
+      height: 21px;
+      overflow: hidden;
+	  position: absolute;
+	  right: 142px;
+	  top: 0px;
+	  margin-top: 14px;
+}
+.page-footer .page-bottom-line .google {
+      width: 21px;
+      height: 21px;
+      overflow: hidden;
+      position: absolute;
+	  right: 94px;
+	  top: 0px;
+	  margin-top: 14px;
+}
+.page-footer .page-bottom-line .twetter {
+      width: 21px;
+      height: 21px;
+      position: absolute;
+	  right: 47px;
+	  top: 0px;
+	  margin-top: 14px;
+}
+.page-footer .page-bottom-line .rss {
+      width: 21px;
+      height: 21px;
+      position: absolute;
+	  right: 0;
+      top: 0;
+	  margin-top: 14px;
+}

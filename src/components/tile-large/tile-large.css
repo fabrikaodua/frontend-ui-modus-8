@@ -1,32 +1,55 @@
-.tile-large{
+.tile-large {
 	background-color: #f8f8f8;
-    display: inline-block;
-    vertical-align: top;
-    width: 570px;
-    height: 270px;
-    border-radius: 6px;
-    margin: 10px;
-    text-align: center;
-	border: 2px solid lightcoral;
+	display: inline-block;
+	vertical-align: top;
+	width: 570px;
+	height: 270px;
+	border-radius: 6px;
+	margin: 0 27px 37px 0;
+	text-align: center;
 	border-bottom: solid 3px #e5e6e6;
+	font-size: 0;
+	z-index: 0;
 }
 
 .tile-large:hover {
-    display: inline-block;
-    background-color: #83ccc5;
-    transition-duration: 0.3s;
+	display: inline-block;
+	background-color: #83ccc5;
+	transition-duration: 0.3s;
 }
 
-.tile-large span{
-	font-family: 'Open Sans',sans-serif;
-	color: white;
-	font-size: 16px;
-	font-weight: 700;
-	position: relative;
-	top: 210px;
+.tile-large-hover {
+	z-index: 1;
+	margin-top: 110px;
 	display: none;
+	width: 100%;
 }
 
-.tile-large:hover span{
+.tile-large:hover .tile-large-hover {
+	text-align: center;
 	display: inline-block;
 }
+
+.tile-large-hover button {
+	padding: 0;
+	margin-right: 10px;
+	border: none;
+	border-radius: 5px;
+	height: 40px;
+	width: 40px;
+	background: url(./images/eye.png);
+}
+
+.tile-large-hover span {
+	display: block;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: white;
+	position: relative;
+	top: 60px;
+}
+
+/* .tile-large:nth-child(2n+2){
+	margin-right: 0;
+} */

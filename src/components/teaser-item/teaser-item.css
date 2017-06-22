@@ -1,0 +1,18 @@
+.teaser-item {
+	position: relative;
+	height: 270px;
+}
+
+.teaser-item > p {
+	height: 140px;
+}
+
+.teaser-item > .link-external {
+	position: absolute;
+	left: 600px;
+}
+
+.teaser-item > .button-control {
+	position: absolute;
+	right: 0;
+}

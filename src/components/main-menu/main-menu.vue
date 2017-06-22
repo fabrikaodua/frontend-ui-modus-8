@@ -2,28 +2,45 @@
 
 <template>
 	<nav class="main-menu">
-		<router-link to="/index" active-class="current">Home</router-link>
-		<router-link to="/about" active-class="current">About</router-link>
-		<router-link to="/services" active-class="current">Services</router-link>
-		<router-link to="/portfolio" active-class="current">Portfolio</router-link>
-		<router-link to="/portfolio-2" active-class="current">Portfolio 2</router-link>
-		<router-link to="/portfolio-3" active-class="current">Portfolio 3</router-link> 
-		<router-link to="/portfolio-4" active-class="current">Portfolio 4</router-link>
-		<router-link to="/blog" active-class="current">Blog</router-link>
-		<router-link to="/ui-kit" active-class="current">Examples</router-link>
+		<ul class="menu-list">
+			<li class="menu-item">
+				<router-link to="/index" class="link" active-class="current">Home</router-link>
+			</li>
+			<li class="menu-item">
+				<router-link to="/about" class="link" active-class="current">About</router-link>
+			</li>
+			<li class="menu-item">
+				<router-link to="/services" class="link" active-class="current">Services</router-link>
+			</li>
+			<li class="menu-item item-portfolio">
+				<router-link to="/portfolio" class="link" active-class="current">Portfolio</router-link>
+					<ul class="sub-menu">
+						<li class="sub-item">
+							<router-link to="/portfolio-2" class="link-sub" active-class="current">Portfolio-2</router-link>
+						</li>
+
+						<li class="sub-item">
+							<router-link to="/portfolio-3" class="link-sub" active-class="current">Portfolio-3</router-link>
+						</li>
+
+						<li class="sub-item">
+							<router-link to="/portfolio-4" class="link-sub" active-class="current">Portfolio-4</router-link>
+						</li>
+					</ul>
+			</li>
+			</li>
+			<li class="menu-item">
+				<router-link to="/blog" class="link" active-class="current">Blog</router-link>
+			</li>
+			<li class="menu-item">
+				<router-link to="/features" class="link" active-class="current">Features</router-link>
+			</li>
+			<li class="menu-item">
+				<router-link to="/contacts"  class="link" active-class="current"> Contacts</router-link>
+			</li>
+			<li class="menu-item">
+			 <router-link to="/ui-kit"  class="link" active-class="current">Examples</router-link>
+			</li>
+		</ul>
 	</nav>
 </template>
-</template>
-/*<template>
-	<nav class="main-menu">
-		<router-link to="/index" active-class="current">Main</router-link>
-		<router-link to="/contacts" active-class="current">Contacts</router-link>
-		<router-link to="/blog" active-class="current">Blog</router-link>
-		<router-link to="/portfolio" active-class="current">Portfolio</router-link>
-		<router-link to="/portfolio-2" active-class="current">Portfolio 2</router-link>
-		<router-link to="/portfolio-3" active-class="current">Portfolio 3</router-link> 
-		<router-link to="/portfolio-4" active-class="current">Portfolio 4</router-link>
-		<router-link to="/ui-kit" active-class="current">Examples</router-link>
-	</nav>
-</template>
-</template>*/

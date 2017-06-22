@@ -1,24 +1,52 @@
-.image-content {
-	position: relative;
+.tile-large-content > .image-content {
+	position: absolute;
+	display: block;
 	height: 270px;
 	width: 570px;
-	border: 3px solid aquamarine;
+	border-radius: 6px;
 	overflow: hidden;
 }
 
-/*.content-image {
-	position: absolute;
-	height: inherit;
-	width: auto;
-	left: 50%;
-	transform: translateX(-50%);
-}*/
+.tile-medium-content > .image-content {
+}
 
-.content-image {
-	position: absolute;
+.tile-small-content > .image-content {
+}
+
+.tile-large-content > .image-content:hover img,
+.tile-medium-content > .image-content:hover img,
+.tile-small-content > .image-content:hover img {
+	display: none;
+}
+
+.image-content > .image {
+	position: relative;
 	height: auto;
 	width: inherit;
 	top: 50%;
 	transform: translateY(-50%);
+	border-radius: 6px;
 }
 
+.teaser-item > .image-content {
+	display: block;
+	float: left;
+	height: 270px;
+	width: 570px;
+	border-radius: 6px;
+	overflow: hidden;
+	margin-right: 30px;
+	border-bottom: solid 3px #e5e6e6;
+}
+
+
+/* Почему не работает? */
+
+/* . image-content:hover {
+		visibility: hidden;
+	}
+
+	.content-image:hover {
+		visibility: hidden;
+	}
+*/

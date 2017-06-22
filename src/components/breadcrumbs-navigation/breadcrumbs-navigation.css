@@ -1,0 +1,27 @@
+ul.br_crumb-nav {
+    padding: 10px 16px;
+    list-style: none;
+    font-size: 12px;
+    color: #7f8c8c;
+    font-family: 'Open Sans Semibold', sans-serif;
+}
+
+ul.br_crumb-nav li {
+    display: inline;
+}
+
+ul.br_crumb-nav li+li:before {
+    padding: 8px;
+    color: #7f8c8c;
+    content: "/\00a0";
+}
+
+ul.br_crumb-nav li a {
+    color: #7f8c8c;
+    text-decoration: none;
+}
+
+ul.br_crumb-nav li a:hover {
+    color: #5d6666;
+    text-decoration: underline;
+}

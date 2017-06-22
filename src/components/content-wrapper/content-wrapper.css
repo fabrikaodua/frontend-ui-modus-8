@@ -1,5 +1,5 @@
 .content-wrapper {
 	width: 1170px;
 	margin: auto;
-	line-height: 100%;
+	position: relative;
 }

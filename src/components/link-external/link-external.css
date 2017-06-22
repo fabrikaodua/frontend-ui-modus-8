@@ -1,0 +1,34 @@
+a.link-external {
+	position: relative;
+	box-sizing: border-box;
+	display: inline-block;
+	padding-left: 40px;
+	padding-top: 7px;
+	line-height: 24px;
+	text-decoration: none;
+	height: 40px;
+	width: auto;
+	max-width: 1000px;
+	font-size: 20px;
+	color: #7f8c8c;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+a.link-external::before {
+	content: url('link-external-green.png');
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 40px;
+	width: 40px;
+}
+
+a.link-external:hover {
+	color: #e2534b;
+}
+
+a.link-external:hover:before {
+	content: url('link-external-red.png');
+}

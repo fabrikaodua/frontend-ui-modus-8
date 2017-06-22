@@ -1,0 +1,20 @@
+.top-bar {
+	overflow: hidden;
+	height: 95px;
+	width: 100%;
+	position: relative;
+	background-image: url(./bg-top-bar.png);
+	background-repeat: no-repeat;
+	margin-bottom: 30px;
+}
+
+.breadcrumbs {
+	position: absolute;
+	right: 0;
+	top: -25px;
+}
+
+.naiming {
+	margin-left: 0;
+	margin-top: 25px;
+}

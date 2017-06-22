@@ -1,0 +1,50 @@
+.tabs {
+	width: 80%;
+	margin: 150px auto;
+}
+
+.label-tab {
+	cursor: pointer;
+	display: inline-block;
+	padding: 10px 40px;
+	background-color: pink;
+	border-radius: 20px 20px 0 0;
+	font-size: 20px;
+}
+
+.tab-input {
+	display: none;
+}
+
+.tab-input:checked + .label-tab {
+	background-color: lightcoral;
+	color: #fff;
+}
+
+.tab-input [id="tab-1"]:checked ~ .content-tab .tab-1 {
+	display: block;
+}
+
+.tab-input [id="tab-2"]:checked ~ .content-tab .tab-2 {
+	display: block;
+}
+
+.tab-input [id="tab-3"]:checked ~ .content-tab .tab-3 {
+	display: block;
+}
+
+.content-tab {
+	position: relative;
+}
+
+.content-tab .tab-1, .tab-2, .tab-3 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	font-size: 25px;
+	background-color: #fff;
+	padding: 70px 40px;
+	border-radius: 0 5px 5px 5px;
+	display: none;
+}

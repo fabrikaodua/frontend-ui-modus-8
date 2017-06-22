@@ -1,0 +1,145 @@
+.blog-side-bar {
+	width: 270px;
+}
+
+/*Categorius---------------------------------------------------------------------------*/
+
+.blog-side-bar .categories {
+	color: #7f8c8c;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 22px;
+    font-size: 16px;
+}
+
+	
+.blog-unordered  .blog-ipsum {
+	list-style-type: none;
+	font-size: 14px;
+	color: #e2534b;
+}
+
+.blog-side-bar .blog-unordered .fa-arrow-circle-right {
+    color: #61b8b0; 
+	padding-right: 15px;
+	margin-left: 13px;
+	width: 12px;
+	height: 15px;
+}
+
+
+/*Recent-post---------------------------------------------------------------------------*/
+
+.blog-side-bar .recent-post {
+    color: #7f8c8c;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 22px;
+    font-size: 16px;
+	margin-top: 50px;
+}
+
+.recent-post-arrow .fa-angle-right {
+	color: #61b8b0; 
+	margin-left: 13px;
+	padding-right: 13px;
+	
+}
+
+.recent-post-arrow .post-arrow {
+	list-style-type: none;
+	font-size: 14px;
+	color: #e2534b;
+}
+
+.recent-post-arrow .text {
+	list-style-type: none;
+	font-size: 12px;
+	padding-left: 31px;
+	color: #e2534b;
+}
+
+.recent-post-arrow .digits {
+	list-style-type: none;
+	font-size: 12px;
+	padding-left: 31px;
+	color: #7f8c8c;
+	padding-bottom: 12px;
+	width: 270px;
+	border-bottom: 1px solid rgba( 229, 230, 230, 0.47);
+}
+
+/*Tags---------------------------------------------------------------------------*/
+
+.blog-side-bar .tags {
+    color: #7f8c8c;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 22px;
+    font-size: 16px;
+	margin-top: 35px;
+}
+
+.blog-side-bar .tags-rigth {
+	padding: 0;
+	margin: 0;
+	width: 270px;
+}
+
+.blog-side-bar .tags-rigth .necessary {
+	display: inline-block;
+	list-style-type: none;
+	font-size: 12px;
+	color: #e2534b;
+	background: #7f8c8c;
+	border-radius: 5px;
+	margin-right: 9px;
+	margin-bottom: 10px;
+}
+.blog-side-bar .tags-rigth a {
+	list-style: none;
+	text-decoration: none;
+	color: #ffffff;
+	display: block;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.blog-side-bar .tags-rigth a:hover {
+	color: #ffffff;
+	background: #e2534b;
+	border-radius: 5px;
+}
+
+/*Archive---------------------------------------------------------------------------*/
+
+.blog-side-bar .archive {
+	color: #7f8c8c;
+	padding-bottom: 22px;
+    font-size: 16px;
+	margin-top: 35px;
+}
+
+.archive-unordered .archive-digits {
+	list-style-type: none;
+	font-size: 14px;
+	color: #e2534b;
+}
+
+
+.blog-side-bar .fa-arrow-circle-right {
+    color: #7f8c8c; 
+	padding-right: 13px;
+	margin-left: 13px;
+	width: 12px;
+	height: 15px;
+}
+
+
+
+
+
+
+
+
+

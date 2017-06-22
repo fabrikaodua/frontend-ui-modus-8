@@ -16,15 +16,15 @@ Vue.use(VueRouter);
 
 const routes = [
 	{ path: '', component: Index },
-	{ path: '/index(.*)', component: Index },
-	{ path: '/contacts(.*)', component: Contacts },
-	{ path: '/blog(.*)', component: Blog },
-	{ path: '/blogpost(.*)', component: Blogpost },
-	{ path: '/portfolio(.*)', component: Portfolio },
-	{ path: '/portfolio-2(.*)', component: Portfolio2 },
-	{ path: '/portfolio-3(.*)', component: Portfolio3 },
-	{ path: '/portfolio-4(.*)', component: Portfolio4 },
-	{ path: '/ui-kit(.*)', component: UiKit },
+	{ path: '/index', component: Index },
+	{ path: '/contacts', component: Contacts },
+	{ path: '/blog', component: Blog },
+	{ path: '/blogpost', component: Blogpost },
+	{ path: '/portfolio', component: Portfolio },
+	{ path: '/portfolio-2', component: Portfolio2 },
+	{ path: '/portfolio-3', component: Portfolio3 },
+	{ path: '/portfolio-4', component: Portfolio4 },
+	{ path: '/ui-kit', component: UiKit },
 	{ path: '*', component: NotFound },
 ];
 const router = new VueRouter({

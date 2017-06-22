@@ -1,0 +1,113 @@
+.motivation-info {
+	position: relative;
+	width: 1172px;
+	height: 555px;
+	margin-bottom: 55px;
+	text-align: center;
+}
+
+.motivation-info .topbg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 400px;
+	width: 100%;
+	background: url(./motivation-info-border.png) repeat-x;
+	background-color: #ececec;
+}
+
+.motivation-info > .text-message {
+	position: relative;
+	top: 65px;
+	color: #777;
+	line-height: 1.6em;
+}
+
+.motivation-info > .text-message > h2 {
+	text-transform: uppercase;
+	line-height: 48px;
+	font-size: 40px;
+	color: #e1524b;
+}
+
+.motivation-info .allwindows {
+	position: absolute;
+	text-align: left;
+	padding: 0;
+	top: 194px;
+	height: 360px;
+	width: 100%;
+}
+
+.motivation-info .rearWindowLeft {
+	position: absolute;
+	top: 60px;
+	left: 0;
+	height: 258px;
+	width: 371px;
+	background: #b0b8b9;
+	border-radius: 8px;
+}
+
+.motivation-info .rearWindowLeft::before {
+	position: absolute;
+	left: 10px;
+	top: 16px;
+	content: '';
+	height: 12px;
+	width: 12px;
+	background-color: #ececec;
+	border-radius: 6px;
+	box-shadow: 20px 0 #ececec, 40px 0 #ececec;
+}
+
+.motivation-info .rearWindowLeft::after {
+	position: absolute;
+	right: 19px;
+	top: 19px;
+	content: '';
+	height: 6px;
+	width: 12px;
+	background-color: #ececec;
+	border-radius: 3px;
+}
+
+.motivation-info .rearWindowRigth {
+	position: absolute;
+	top: 60px;
+	right: 0;
+	height: 258px;
+	width: 371px;
+	background: #b0b8b9;
+	border-radius: 8px;
+}
+
+.motivation-info .rearWindowRigth::before {
+	position: absolute;
+	left: 10px;
+	top: 16px;
+	content: '';
+	height: 12px;
+	width: 12px;
+	background-color: #ececec;
+	border-radius: 6px;
+	box-shadow: 20px 0 #ececec, 40px 0 #ececec;
+}
+
+.motivation-info .rearWindowRigth::after {
+	position: absolute;
+	right: 19px;
+	top: 19px;
+	content: '';
+	height: 6px;
+	width: 12px;
+	background-color: #ececec;
+	border-radius: 3px;
+}
+
+.motivation-info .rearWindowLeft.transformed {
+	position: absolute;
+	left: 33%;
+	transform: scale(2, 1.7);
+	background: #b0b8b9;
+}

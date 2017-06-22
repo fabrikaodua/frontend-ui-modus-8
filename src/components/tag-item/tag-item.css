@@ -1,4 +1,4 @@
-.mainmenu .itemmenu {
+.tag-item .item-menu {
 	margin-right: 20px;
 	font-size: 14px;
 	line-height: 30px;
@@ -8,32 +8,34 @@
 	display: inline-block;
 }
 
-.mainmenu .tagitem {
+.tag-item .tag-design {
 	display: inline-block;
 }
 
-.mainmenu a{
+.tag-item a{
 	list-style: none;
+	display: block;
 	text-decoration: none;
 	color: #ffffff;
 	padding-left: 11px;
 	padding-right: 11px;
-	padding-bottom: 8px;
-    padding-top: 8px;
+	padding-bottom: 6px;
+    padding-top: 6px;
 }
 
-.mainmenu .logo a:hover {
+.tag-item a:hover {
 	color: #ffffff;
 	background: #e8645a;
-	border-bottom: 3px solid #e2534b;
 	border-radius: 4px;
+	box-shadow: 0 3px #e2534b;
 }
 
-.mainmenu a:hover {
-    color: #ffffff;
+.tag-item .logo {
+    background: #e8645a;
+	border-bottom: 3px solid #e2534b;
 }
 
-.mainmenu .itemmenu:nth-child(5) {
+.tag-item .item-menu:nth-child(5) {
 	background-color: #62a29e;
 	border-bottom: 3px solid #528b86;
 }

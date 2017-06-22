@@ -8,5 +8,5 @@ new Vue({ // eslint-disable-line no-new
 	router,
 	render(callback) {
 		return callback(Body);
-	},
+	}
 });

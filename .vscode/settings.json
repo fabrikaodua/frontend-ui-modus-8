@@ -6,8 +6,12 @@
 	"files.autoSave": "onFocusChange",
 	"jshint.enable": false,
 	"eslint.autoFixOnSave": true,
-	"editor.formatOnSave": false,
+	"editor.formatOnSave": true,
 	"javascript.format.enable": true,
+	"javascript.validate.enable": false,
+	"stylelint.configOverrides": {
+		"fix": true
+	},
 	"eslint.validate": [
 		{
 			"language": "html",

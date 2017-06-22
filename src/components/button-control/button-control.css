@@ -2,11 +2,12 @@
 	background: #76caca;
 	color: white;
 	height: 50px;
-	width: 200px;
-	padding: 0 25px;
+	width: auto;
+	padding: 0 50px;
 	border-radius: 5px;
 	border: none;
 	box-shadow: 0 4px #62bdbd;
+	text-transform: uppercase;
 }
 
 .button-control:hover {

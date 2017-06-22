@@ -1,0 +1,14 @@
+.list-arrow {
+	line-height: 21px;	
+	margin: 20px;
+}
+
+.list-arrow  .list-arrow-ipsum {
+	list-style-type: none;
+}
+
+.fa-arrow-right {
+    color: #e1524b; /* Цвет иконки */
+	padding-right: 5px;
+}
+

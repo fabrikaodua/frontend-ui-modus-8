@@ -1,0 +1,14 @@
+.list-cross {
+	line-height: 21px;
+	margin: 20px;
+}
+
+.list-cross .list-cross-ipsum {
+	list-style-type: none;
+}
+
+.fa-close {
+    color: #e1524b; /* Цвет иконки */
+	padding-right: 5px;
+}
+

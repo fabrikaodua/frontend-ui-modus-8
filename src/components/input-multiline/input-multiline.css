@@ -1,0 +1,10 @@
+textarea {
+	background-color: #e5e6e6;
+	color: #879393;
+	width: 770px;
+	height: 240px;
+	border-radius: 2px;
+	border-left: 3px solid #d9dada;
+	border-top: 2px solid #d9dada;
+	resize: none;
+}

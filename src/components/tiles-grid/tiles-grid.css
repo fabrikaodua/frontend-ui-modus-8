@@ -1,0 +1,9 @@
+.tiles-grid {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+.tiles-grid-content {
+	margin-right: -40px;
+}

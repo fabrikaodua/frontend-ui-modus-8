@@ -1,60 +1,82 @@
 body {
-	background: #f3f3f3;
-	color: rgb(119, 119, 119);
-	cursor: default;
-	font-family: Lato, 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-	font-size: 13px;
-	font-style: normal;
-	font-weight: normal;
-	line-height: 21px;
+    background: #f3f3f3;
+    color: rgb(119, 119, 119);
+    cursor: default;
+    font-family: Lato, 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 21px;
 }
 
 a {
-	color: #e1524b;
-	line-height: 25px;
-	text-decoration: underline;
+    color: #e1524b;
+    line-height: 25px;
+    text-decoration: underline;
 }
 
 a:hover {
-	color: #bc4742;
+    color: #bc4742;
 }
 
 p {
-	font-size: 11px;
-	font-family: 'Open Sans';
-	color: #7f8c8c;
-	line-height: 1.2em;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    color: #7f8c8c;
+    line-height: 1.6em;
+    margin-bottom: 20px;
 }
+
 h1 {
-	 font-family: 'Open Sans',sans-serif;
-	 font-weight: 600;
-	 font-size: 20pt;
-	 font-style:normal;
-	 line-height: 24pt;
-	 color: #7f8c8c;
-	 text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20pt;
+    font-style: normal;
+    line-height: 24pt;
+    color: #7f8c8c;
+    text-transform: uppercase;
+    margin: 0;
 }
+
 h2 {
-	font-family: 'Open Sans',sans-serif;
-	font-weight: 600;
-	font-size: 24pt;
-	font-style:normal;
-	line-height: 21pt;
-	color: #76c7c0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24pt;
+    font-style: normal;
+    line-height: 21pt;
+    color: #76c7c0;
+    margin: 0;
 }
+
 h3 {
-	font-family: 'Open Sans',sans-serif;
-	font-weight: 700;
-	font-size: 20pt;
-	font-style:normal;
-	line-height: 24pt;
-	color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20pt;
+    font-style: normal;
+    line-height: 24pt;
+    color: #000;
+    margin: 0;
 }
+
 h4 {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
-	font-size: 20pt;
-	font-style: normal;
-	line-height: 24pt;
-	color: #7f8c8c;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20pt;
+    font-style: normal;
+    line-height: 24pt;
+    color: #7f8c8c;
+    margin: 0;
+}
+
+hr {
+    color: #e5e6e6;
+    line-height: 3px;
+    border: none;
+}
+
+blockquote {
+    border-left: 5px solid #7f8c8c;
+    margin-right: 1.5em 25px;
+    padding: 1.5em 25px;
 }

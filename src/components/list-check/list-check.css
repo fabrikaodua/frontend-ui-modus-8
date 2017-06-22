@@ -1,0 +1,13 @@
+.list-check{
+	line-height: 21px;	
+	margin: 20px;
+}
+
+.list-check  .list-check-ipsum {
+	list-style-type: none;
+}
+
+.fa-check {
+    color: #61b8b0; /* Цвет иконки */
+	padding-right: 5px;
+}

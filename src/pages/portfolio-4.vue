@@ -1,16 +1,65 @@
 <script>
-	import PageHeader from '../components/page-header/page-header.vue';
+import PageHeader from '../components/page-header/page-header.vue';
+import PageFooter from '../components/page-footer/page-footer.vue';
+import ContentWrapper from '../components/content-wrapper/content-wrapper.vue';
+import TagItem from '../components/tag-item/tag-item.vue';
+import TopBar from '../components/top-bar/top-bar.vue';
+import PaginationMenu from '../components/pagination-menu/pagination-menu.vue';
+import TilesGrid from '../components/tiles-grid/tiles-grid.vue';
+import TileSmall from '../components/tile-small/tile-small.vue';
 
-	export default {
-		components: { PageHeader }
-	};
+
+export default{
+	components: {
+		PageHeader,
+		PageFooter,
+		ContentWrapper,
+		TagItem,
+		TopBar,
+		PaginationMenu,
+		TilesGrid,
+		TileSmall
+	}
+};
 </script>
 
 <template>
 	<body>
 		<page-header />
 		
-		Portfolio 4 columns
+		<top-bar>
+			<h1>Portfolio</h1>
+		</top-bar>
 
+		<content-wrapper>
+			<tag-item class="tag-item-portfolio"> </tag-item>
+
+			<tiles-grid>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+				<tile-small> </tile-small>
+
+			
+			
+			</tiles-grid>
+
+
+			<pagination-menu class="pagination-portfolio"> </pagination-menu>
+		</content-wrapper>
+
+		<page-footer></page-footer>
 	</body>
 </template>

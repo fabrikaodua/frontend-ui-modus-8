@@ -1,0 +1,58 @@
+.address-info {
+	width: 270px;
+	height: 180px;
+	font-size: 16px;
+}
+
+.address-info > h4 {
+	text-transform: uppercase;
+}
+
+.address-info > .contact_list {
+	list-style: none;
+	padding-left: 0;
+}
+
+/*Margin for list-item with location-info*/
+.address-info .contact_item_loc {
+	margin: 35px 0 25px;
+}
+
+/*Icon fo location*/
+.address-info .contact_item_loc:before {
+	content: url('./icon-location.png');
+	width: 21px;
+	height: 32px;
+	float: left;
+	margin-right: 10px;
+}
+
+/*Icon fo phone-number*/
+.address-info .contact_item_tel:before {
+	content: url('./icon-telephone.png');
+	width: 15px;
+	height: 15px;
+	float: left;
+	margin-right: 10px;
+}
+
+/*Style for phone-number*/
+.address-info .contact_item_tel > a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/*Icon fo email-address*/
+.address-info .contact_item_mail:before {
+	content: url('./icon-mail.png');
+	width: 18px;
+	height: 15px;
+	float: left;
+	margin-right: 10px;
+}
+
+/*Not working*/
+/*.address-info .contact_item_loc {
+	list-style-image: url('./icon-location.png');
+	list-style-position: ;
+}*/
