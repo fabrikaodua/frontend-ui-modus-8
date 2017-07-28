@@ -122,7 +122,9 @@ export default {
 		</content-wrapper>
 		<div class="page-bottom-line">
 			<content-wrapper>
+			
 				<div class="modus-versus">2013  ModusVersus</div>
+
 				<nav class="fa-go-tw-rs">
 					<a href="" alt="facebook"><span class="facebook"></span></a>
 					<a href="" alt="google"><span class="google"></span></a> 

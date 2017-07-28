@@ -1,11 +1,11 @@
 .content-wrapper {
-	max-width: 1170px;
-	margin: auto;
-	position: relative;
+    max-width: 1170px;
+    margin: auto;
+    position: relative;
 }
 
 @media (max-width:12 00px) {
-	.content-wrapper {
-		width: 90%;
-	}
+    .content-wrapper {
+        width: 90%;
+    }
 }

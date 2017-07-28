@@ -11,16 +11,14 @@
     vertical-align: top;
     width: 370px;
     height: 100%;
-    margin-left: 3px;
+}
+
+.page-footer .bottom-part {
+    margin: 0 -2px;
 }
 
 
 /*==========  Part-logo  ==========*/
-
-* {
-    margin: 0;
-    padding: 0;
-}
 
 .page-footer .part-logo {
     width: 100%;
@@ -276,18 +274,12 @@
     color: #fff;
 }
 
-
-/* Extra Small Devices, Phones */
-
 @media (min-width: 480px) and (max-width: 768px) {
     .page-footer .blog-text {
         min-width: 330px;
         font-size: 16px;
     }
 }
-
-
-/* Custom, iPhone Retina */
 
 @media (min-width: 320px) and (max-width: 400px) {
     .page-footer .blog-text {
@@ -328,7 +320,7 @@
 }
 
 .page-footer .fa-go-tw-rs .facebook {
-    background: url(./page-png/facebook.png) no-repeat;
+    background: url(./page-png/Facebook.png) no-repeat;
     width: 21px;
     height: 22px;
     position: absolute;
