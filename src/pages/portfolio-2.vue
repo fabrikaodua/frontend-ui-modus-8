@@ -7,7 +7,6 @@ import TopBar from '../components/top-bar/top-bar.vue';
 import PaginationMenu from '../components/pagination-menu/pagination-menu.vue';
 import TilesGrid from '../components/tiles-grid/tiles-grid.vue';
 import TileLarge from '../components/tile-large/tile-large.vue';
-import ImageContent from '../components/image-content/image-content.vue';
 import ImagePlaceholder from '../components/image-placeholder/image-placeholder.vue';
 
 
@@ -21,7 +20,6 @@ export default {
 		PaginationMenu,
 		TilesGrid,
 		TileLarge,
-		ImageContent,
 		ImagePlaceholder
 	}
 };

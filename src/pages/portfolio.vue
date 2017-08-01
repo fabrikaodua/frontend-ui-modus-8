@@ -4,7 +4,6 @@ import PageHeader from '../components/page-header/page-header.vue';
 import PageFooter from '../components/page-footer/page-footer.vue';
 import ContentWrapper from '../components/content-wrapper/content-wrapper.vue';
 import TagItem from '../components/tag-item/tag-item.vue';
-import ImageContent from '../components/image-content/image-content.vue';
 import TopBar from '../components/top-bar/top-bar.vue';
 import PaginationMenu from '../components/pagination-menu/pagination-menu.vue';
 import ButtonControl from '../components/button-control/button-control.vue';
@@ -18,7 +17,6 @@ export default {
 		PageFooter,
 		ContentWrapper,
 		TagItem,
-		ImageContent,
 		TopBar,
 		PaginationMenu,
 		ButtonControl,

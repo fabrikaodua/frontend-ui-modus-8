@@ -1,6 +1,5 @@
 <script>
 import PageHeader from '../components/page-header/page-header.vue';
-import ImageContent from '../components/image-content/image-content.vue';
 import TagItem from '../components/tag-item/tag-item.vue';
 import SearchBox from '../components/search-box/search-box.vue';
 import ButtonControl from '../components/button-control/button-control.vue';
@@ -33,7 +32,6 @@ import FeatureList from '../components/feature-list/feature-list.vue';
 export default {
 	components: {
 		PageHeader,
-		ImageContent,
 		TagItem,
 		SearchBox,
 		ButtonControl,
