@@ -1,50 +1,45 @@
-.tabs {
-	width: 80%;
-	margin: 150px auto;
+.tab-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
-.label-tab {
-	cursor: pointer;
+.tab-item {
 	display: inline-block;
-	padding: 10px 40px;
-	background-color: pink;
-	border-radius: 20px 20px 0 0;
-	font-size: 20px;
+	margin-right: 12px;
+	cursor: pointer;
+	font-size: 16px;
+	color: #2c2c2c;
+	text-transform: uppercase;
+	background-color: #62b9b0;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 25px;
+	border-radius: 5px 5px 0 0;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
-.tab-input {
-	display: none;
-}
-
-.tab-input:checked + .label-tab {
-	background-color: lightcoral;
+.tab-item a {
 	color: #fff;
+	text-decoration: none;
 }
 
-.tab-input [id="tab-1"]:checked ~ .content-tab .tab-1 {
+li.selectedMenuItem, li.selectedMenuItem:hover {
+	font-weight: bold;
+	background-color: #f8f8f8;
+}
+
+.selectedMenuItem a {
+	color: #a2aaaa;
+}
+
+.menuItem {
 	display: block;
+	height: 50px;
+	line-height: 50px;
 }
 
-.tab-input [id="tab-2"]:checked ~ .content-tab .tab-2 {
-	display: block;
-}
-
-.tab-input [id="tab-3"]:checked ~ .content-tab .tab-3 {
-	display: block;
-}
-
-.content-tab {
-	position: relative;
-}
-
-.content-tab .tab-1, .tab-2, .tab-3 {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	font-size: 25px;
-	background-color: #fff;
-	padding: 70px 40px;
-	border-radius: 0 5px 5px 5px;
-	display: none;
+.tab-item:hover {
+	color: #fff;
+	background-color: #e2534b;
 }

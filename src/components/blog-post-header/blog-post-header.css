@@ -3,6 +3,7 @@
 	max-width: 900px;
 	min-height: 70px;
 	margin-bottom: 40px;
+	margin-top: 40px;
 }
 
 .blog-post-header div {
@@ -13,6 +14,19 @@
 	font-weight: 600;
 	margin-left: 100px;
 	max-width: 800px;
+}
+
+@media (max-width: 850px) {
+	.blog-post-header .blog-title {
+		margin-left: -20px;
+	}
+	.blog-post-header .datum-header {
+		display: block;
+		margin-left: 0;
+	}
+	.blog-post-header .category::before {
+		margin-left: 0;
+	}
 }
 
 .blog-post-header .datum-header {

@@ -1,0 +1,8 @@
+.tab-content {
+	max-width: 850px;
+	background-color: #f8f8f8;
+	border-radius: 0 5px 5px;
+	padding: 30px 22px;
+	border-bottom: 2px solid #e5e6e6;
+	font-family: Arial, Helvetica, sans-serif;
+}
