@@ -1,0 +1,14 @@
+.video-content {
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 6px;
+	border-bottom: solid 3px #e5e6e6;
+	background-color: #f8f8f8;
+}
+
+.video-content > video {
+	margin: 3px;
+	max-width: 764px;
+	max-height: 454px;
+}

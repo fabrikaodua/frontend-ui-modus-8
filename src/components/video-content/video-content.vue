@@ -1,13 +1,15 @@
 <style src="./video-content.css" />
 <script>
 	export default {
-		props: ['src']
-	}
+		props: ['src', 'alt']
+	};
 
 </script>
 
 <template>
-	<video width="420" height="315" controls>
-		<source :src="src">
-	</video>
+	<div class="video-content">
+		<video controls>
+			<source :src="src">
+		</video>
+	</div>
 </template>

@@ -1,6 +1,7 @@
 <script>
 import PageHeader from '../components/page-header/page-header.vue';
 import ImageContent from '../components/image-content/image-content.vue';
+import VideoPlaceholder from '../components/video-placeholder/video-placeholder.vue';
 import TagItem from '../components/tag-item/tag-item.vue';
 import SearchBox from '../components/search-box/search-box.vue';
 import ButtonControl from '../components/button-control/button-control.vue';
@@ -34,6 +35,7 @@ export default {
 	components: {
 		PageHeader,
 		ImageContent,
+		VideoPlaceholder,
 		TagItem,
 		SearchBox,
 		ButtonControl,
@@ -89,9 +91,10 @@ export default {
 	
 			<LinkExternal></LinkExternal>
 			</br>
-			</content-wrapper>
-				<motivation-info></motivation-info>
-			<content-wrapper>
+			<VideoPlaceholder></VideoPlaceholder>
+			
+			
+			<motivation-info></motivation-info>
 			<expandable-box></expandable-box>
 			</br>
 			<button-control></button-control>
