@@ -1,5 +1,3 @@
-<style src="./accordion-list.css"/>
-
 <template>
 <div class="accordion-list">
 	<expandable-box :expanded="expandedItems[0]" @click="expand(0)"></expandable-box>
