@@ -138,6 +138,11 @@ export default {
 
 			<h4>Google Map</h4>
 			<map-google> </map-google>
+
+			<h1>Example of h1 </h1>
+			<h2>Example of h2 </h2>
+			<h3>Example of h3 </h3>
+			<h4>Example of h4 </h4>
 			
 		</content-wrapper>
 	
