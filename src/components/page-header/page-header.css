@@ -25,3 +25,9 @@
 	top: 20px;
 	left: 1050px;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.page-header {
+		height: 60px;
+	}
+}
