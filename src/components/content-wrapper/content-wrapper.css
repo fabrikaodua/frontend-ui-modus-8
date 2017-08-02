@@ -4,8 +4,9 @@
 	position: relative;
 }
 
-@media (max-width:12 00px) {
+@media (max-width: 1200px) {
 	.content-wrapper {
-		width: 90%;
+		border-left: 20px solid transparent;
+		border-right: 20px solid transparent;
 	}
 }

@@ -77,6 +77,7 @@ export default {
 			<breadcrumbs-navigation/>
 	
 			<address-info></address-info>
+			<search-box></search-box>
 			<tag-item>All</tag-item>
 			<tag-item>Web design</tag-item>
 			<tag-item>Logo design</tag-item>
