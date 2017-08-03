@@ -26,7 +26,7 @@ export default{
 <template>
 	<body>
 		<page-header />
-		
+
 		<top-bar>
 			<h1 class="naiming-top-bar">Portfolio</h1>
 		</top-bar>
@@ -52,8 +52,7 @@ export default{
 				<tile-small> </tile-small>
 				<tile-small> </tile-small>
 
-			
-			
+
 			</tiles-grid>
 
 

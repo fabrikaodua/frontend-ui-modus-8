@@ -9,5 +9,5 @@ export default {
 </script>
 
 <template>
-	<image-content src="./components/image-placeholder/image-placeholder.png" alt="Image"></image-content>
+	<image-content url="./image-placeholder.png" alt="Image"></image-content>
 </template>

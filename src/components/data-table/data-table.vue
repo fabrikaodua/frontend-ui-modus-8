@@ -15,28 +15,28 @@
 			<td>Quisque</td>
 			<td>Maecenas a lorem augue</td>
 			<td>Etiam auctordiam pellentesque ulla ac massa at dolor</td>
-			<td>Maecenas a lorem augue</td>	
+			<td>Maecenas a lorem augue</td>
 		</tr>
 
 		<tr>
 			<td>Quisque</td>
 			<td>Maecenas a lorem augue</td>
 			<td>Etiam auctordiam pellentesque ulla ac massa at dolor</td>
-			<td>Maecenas a lorem augue</td>	
-		</tr>
-		
-		<tr>
-			<td>Quisque</td>
 			<td>Maecenas a lorem augue</td>
-			<td>Etiam auctordiam pellentesque ulla ac massa at dolor</td>
-			<td>Maecenas a lorem augue</td>	
 		</tr>
 
 		<tr>
 			<td>Quisque</td>
 			<td>Maecenas a lorem augue</td>
 			<td>Etiam auctordiam pellentesque ulla ac massa at dolor</td>
-			<td>Maecenas a lorem augue</td>	
+			<td>Maecenas a lorem augue</td>
+		</tr>
+
+		<tr>
+			<td>Quisque</td>
+			<td>Maecenas a lorem augue</td>
+			<td>Etiam auctordiam pellentesque ulla ac massa at dolor</td>
+			<td>Maecenas a lorem augue</td>
 		</tr>
 	</table>
 </div>

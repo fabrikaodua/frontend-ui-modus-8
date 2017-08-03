@@ -2,7 +2,7 @@
 
 <template>
 	<div class="feedback-quote">
-	
+
 		<div class="feedback-review">
 			<p>
 				<q>Curabitur quis nisl in leo euismod venenatis eu in diam. Etiam auctor diam pellentesque lectus vehicula mattis.</q> Nulla ac massa at dolor condimentum
