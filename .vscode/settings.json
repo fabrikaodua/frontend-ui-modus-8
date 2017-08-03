@@ -8,14 +8,20 @@
 	"jshint.enable": false,
 	"eslint.autoFixOnSave": true,
 	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
 	"javascript.format.enable": true,
 	"javascript.validate.enable": false,
+	"vetur.validation.template": false,
 	"stylelint.configOverrides": {
 		"fix": true
 	},
 	"eslint.validate": [
 		{
 			"language": "html",
+			"autoFix": true
+		},
+		{
+			"language": "vue",
 			"autoFix": true
 		},
 		{
@@ -39,6 +45,7 @@
 		"./src",
 		"./test"
 	],
+	"emmet.useNewEmmet": false,
 	"emmet.syntaxProfiles": {
 		"vue-html": "html",
 		"vue": "html"

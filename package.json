@@ -24,6 +24,7 @@
 		"coverage": "neutrino test --coverage",
 		"lint": "neutrino lint",
 		"stylelint": "neutrino stylelint",
+		"eslint": "eslint --ext .js,.vue src/",
 		"precommit": "npm run lint",
 		"prepush": "npm test"
 	},
@@ -35,9 +36,8 @@
 	},
 	"devDependencies": {
 		"husky": "0.14.3",
-		"neutrino": "6.1.4",
-		"neutrino-preset-fabrika": "2.0.0",
-		"eslint-plugin-vue": "*"
+		"neutrino": "6.1.5",
+		"neutrino-preset-fabrika": "2.1.0"
 	},
 	"engines": {
 		"node": ">=6.9.0",
