@@ -114,9 +114,9 @@ p {
 h1 {
 	font-family: 'Open Sans', sans-serif, 'PT Sans', Helvetica, Arial;
 	font-weight: 600;
-	font-size: 20pt;
+	font-size: 20px;
 	font-style: normal;
-	line-height: 24pt;
+	line-height: 24px;
 	color: #7f8c8c;
 	text-transform: uppercase;
 	margin: 0;
@@ -125,19 +125,19 @@ h1 {
 h2 {
 	font-family: 'Open Sans', sans-serif, 'PT Sans', Helvetica, Arial;
 	font-weight: 600;
-	font-size: 24pt;
+	font-size: 24px;
 	font-style: normal;
-	line-height: 21pt;
-	color: #76c7c0;
+	line-height: 21px;
+	color: #7f8c8c;
 	margin: 0;
 }
 
 h3 {
 	font-family: 'Open Sans', sans-serif, 'PT Sans', Helvetica, Arial;
 	font-weight: 700;
-	font-size: 20pt;
+	font-size: 20px;
 	font-style: normal;
-	line-height: 24pt;
+	line-height: 24px;
 	color: #000;
 	margin: 0;
 }
@@ -145,9 +145,9 @@ h3 {
 h4 {
 	font-family: 'Open Sans', sans-serif, 'PT Sans', Helvetica, Arial;
 	font-weight: 600;
-	font-size: 20pt;
+	font-size: 20px;
 	font-style: normal;
-	line-height: 24pt;
+	line-height: 24px;
 	color: #7f8c8c;
 	margin: 0;
 }
