@@ -28,6 +28,7 @@ import BlogPost from '../components/blog-post/blog-post.vue';
 import ExpandableBox from '../components/expandable-box/expandable-box.vue';
 import FormFeedback from '../components/form-feedback/form-feedback.vue';
 import FeatureList from '../components/feature-list/feature-list.vue';
+import ProgressSemiRadial from '../components/progress-semi-radial/progress-semi-radial.vue';
 import MapGoogle from '../components/map-google/map-google.vue';
 
 export default {
@@ -61,6 +62,7 @@ export default {
 		ExpandableBox,
 		FormFeedback,
 		FeatureList,
+		ProgressSemiRadial,
 		MapGoogle
 	}
 };
@@ -136,6 +138,16 @@ export default {
 			<blog-post/>
 			<form-feedback />
 
+			<h4>Progress Bar</h4>
+			<progress-semi-radial value='40'>Suspendisse
+			</progress-semi-radial>
+			<progress-semi-radial value='70'>Maecenas
+			</progress-semi-radial>
+			<progress-semi-radial value='0'>Aliquam
+			</progress-semi-radial>
+			<progress-semi-radial value='100'>Habitasse
+			</progress-semi-radial>
+			
 			<h4>Google Map</h4>
 			<map-google> </map-google>
 
