@@ -1,7 +1,7 @@
 .blog-post {
 	position: relative;
-	width: 870px;
-	min-height: 590px;
+	max-width: 870px;
+	min-height: 690px;
 	border-bottom: 3px solid #e5e6e6;
 	margin-bottom: 40px;
 }
@@ -10,16 +10,34 @@
 	margin-left: 100px;
 }
 
+@media (max-width: 850px) {
+	.blog-post .blog-post-paragraph {
+		margin-left: 0;
+	}
+	.blog-post .datum {
+		display: inline-block;
+		padding: 5px 10px;
+		margin-top: -60px;
+		margin-left: 0;
+	}
+	.blog-post .datum-month {
+		font-size: 10px;
+	}
+	.blog-post .datum-date {
+		font-size: 15px;
+	}
+	.blog-post .blog-post-link a {
+		margin-left: 0;
+	}
+}
+
 .blog-post .datum {
 	box-sizing: border-box;
-	width: 70px;
-	height: 73px;
+	max-width: 70px;
+	max-height: 73px;
 	background-color: #fff;
 	border-radius: 5px;
 	border-bottom: 3px solid #e5e6e6;
-	position: absolute;
-	top: 0;
-	left: 0;
 	text-transform: uppercase;
 	color: #7f8c8c;
 	padding: 10px 15px;
@@ -41,10 +59,18 @@
 .blog-post .blog-image-placeholder {
 	position: absolute;
 	top: 0;
-	left: 100px;
-	width: 770px;
-	height: 300px;
+	margin-left: 100px;
+	max-width: 770px;
+	max-height: 300px;
 	border-bottom: 3px solid #e5e6e6;
+}
+
+@media (max-width: 850px) {
+	.blog-post .blog-image-placeholder {
+		margin-left: 0;
+		margin-top: 45px;
+		margin-bottom: 40px;
+	}
 }
 
 .blog-post .blog-post-link a {
@@ -65,6 +91,5 @@
 .blog-article {
 	position: absolute;
 	top: 330px;
-	width: 800px;
 	height: auto;
 }
