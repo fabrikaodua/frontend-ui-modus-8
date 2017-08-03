@@ -14,16 +14,14 @@ export default {
 <style src="./top-bar.css" />
 
 <template>
-	
+
 	<div class="top-bar">
-	<content-wrapper>		
+	<content-wrapper>
 	<slot></slot>
-		
+
 		<breadcrumbs-navigation class="breadcrumbs"></breadcrumbs-navigation>
 		</content-wrapper>
 	</div>
 
-	
-</template>
 
-  
+</template>

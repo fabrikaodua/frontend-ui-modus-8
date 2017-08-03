@@ -29,14 +29,14 @@ export default {
 
 <template>
 	<body>
-	
+
 		<page-header />
 		<top-bar>
 			<h1 class="naiming-top-bar">Portfolio</h1>
 		</top-bar>
-	
+
 		<content-wrapper>
-	
+
 			<tag-item class="tag-item-portfolio"> </tag-item>
 
 			<teaser-item class="teaser-item-portfolio"> </teaser-item>
@@ -50,6 +50,6 @@ export default {
 		 </content-wrapper>
 
 		 <page-footer></page-footer>
-		
+
 	</body>
 </template>

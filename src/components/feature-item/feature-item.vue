@@ -14,7 +14,7 @@
 <template>
 	<div class="feature-item">
 		<div class="feature-item-content">
-			<slot></slot> 
+			<slot></slot>
           	<div class="feature-item-heading">{{heading}}</div>
           	<div class="feature-item-description">{{description}}</div>
 		</div>

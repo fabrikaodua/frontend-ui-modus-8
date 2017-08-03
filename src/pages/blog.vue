@@ -7,7 +7,7 @@
 	import ImagePlaceholder from '../components/image-placeholder/image-placeholder.vue';
 	import BlogSideBar from '../components/blog-side-bar/blog-side-bar.vue';
 	import PaginationMenu from '../components/pagination-menu/pagination-menu.vue';
-	
+
 
 	export default {
 		components: {
@@ -42,7 +42,7 @@
 				<blog-side-bar class="blog-side-bar-right"></blog-side-bar>
 				<pagination-menu></pagination-menu>
 			</content-wrapper>
-		
+
 		<page-footer />
 	</body>
 </template>

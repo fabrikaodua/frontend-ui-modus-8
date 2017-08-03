@@ -6,7 +6,6 @@
 import ContentWrapper from '../content-wrapper/content-wrapper.vue';
 
 
-
 export default {
 	components: {
 		ContentWrapper
@@ -33,7 +32,7 @@ export default {
 					<a href="#">Wordpress</a>
 				</slot>
 			</div>
-	
+
 			<div class="category">
 				<a href="#">
 					<slot>Design</slot>
@@ -42,7 +41,7 @@ export default {
 					<slot>Template</slot>
 				</a>
 			</div>
-	
+
 			<div class="comments">
 				<a href="#">
 					<slot>22</slot>

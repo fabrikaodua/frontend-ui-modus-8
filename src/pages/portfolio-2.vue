@@ -27,9 +27,9 @@ export default {
 
 <template>
 	<body>
-		
-		<page-header />		
-		
+
+		<page-header />
+
 		<top-bar>
 			<h1 class="naiming-top-bar">Portfolio</h1>
 		</top-bar>

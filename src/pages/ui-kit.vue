@@ -66,15 +66,15 @@ export default {
 
 <template>
 	<body>
-	
+
 		<page-header></page-header>
 		<top-bar> <h1 class="naiming-top-bar"> Examples</h1> </top-bar>
 		<content-wrapper>
-	
+
 			UI Kit
-	
+
 			<breadcrumbs-navigation/>
-	
+
 			<address-info></address-info>
 			<search-box></search-box>
 			<tag-item>All</tag-item>
@@ -82,10 +82,10 @@ export default {
 			<tag-item>Logo design</tag-item>
 			<tag-item>Photography</tag-item>
 			<tag-item>Wordpress</tag-item>
-	
+
 			<a href="">Open Sans</a>
 			<blockquote>Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque.Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. </blockquote>
-	
+
 			<LinkExternal></LinkExternal>
 			</br>
 			</content-wrapper>
@@ -98,36 +98,36 @@ export default {
 				expandable-box
 			</tile-small>
 			<feedback-quote/>
-	
+
 			<tabs></tabs>
-	
+
 			<tile-small>
-	
+
 			</tile-small>
-	
+
 			<tile-medium></tile-medium>
 			<tabs></tabs>
-	
+
 			<list-cross></list-cross>
-	
+
 			<list-arrow></list-arrow>
-	
+
 			<list-check></list-check>
-	
+
 			<list-unordered></list-unordered>
-	
+
 			<teaser-item> </teaser-item>
 			<br>
 			<blog-side-bar></blog-side-bar>
-	
+
 			<data-table></data-table>
-	
+
 			<blog-post-header> </blog-post-header>
-	
+
 			<h4>Feature List</h4>
-			
+
 			<feature-list>
-				
+
 			</feature-list>
 
 			<h4>BLOG POST </h4>
@@ -136,10 +136,10 @@ export default {
 
 			<h4>Google Map</h4>
 			<map-google> </map-google>
-			
+
 		</content-wrapper>
-	
+
 		<page-footer></page-footer>
-	
+
 	</body>
 </template>
