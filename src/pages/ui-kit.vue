@@ -27,7 +27,7 @@ import BlogPost from '../components/blog-post/blog-post.vue';
 import ExpandableBox from '../components/expandable-box/expandable-box.vue';
 import FormFeedback from '../components/form-feedback/form-feedback.vue';
 import FeatureList from '../components/feature-list/feature-list.vue';
-
+import MapGoogle from '../components/map-google/map-google.vue';
 
 export default {
 	components: {
@@ -58,7 +58,8 @@ export default {
 		BlogPost,
 		ExpandableBox,
 		FormFeedback,
-		FeatureList
+		FeatureList,
+		MapGoogle
 	}
 };
 </script>
@@ -75,6 +76,7 @@ export default {
 			<breadcrumbs-navigation/>
 	
 			<address-info></address-info>
+			<search-box></search-box>
 			<tag-item>All</tag-item>
 			<tag-item>Web design</tag-item>
 			<tag-item>Logo design</tag-item>
@@ -131,7 +133,10 @@ export default {
 			<h4>BLOG POST </h4>
 			<blog-post/>
 			<form-feedback />
-	
+
+			<h4>Google Map</h4>
+			<map-google> </map-google>
+			
 		</content-wrapper>
 	
 		<page-footer></page-footer>

@@ -9,6 +9,7 @@
 	box-shadow: 0 4px #62bdbd;
 	text-transform: uppercase;
 	font-size: 14px;
+	font-weight: 600;
 }
 
 .button-control:hover {

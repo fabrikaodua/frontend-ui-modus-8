@@ -34,8 +34,6 @@ export default {
 				</slot>
 			</div>
 	
-			<div class="icon-category">
-				<img src="./icon-design.png" alt=""> </div>
 			<div class="category">
 				<a href="#">
 					<slot>Design</slot>
@@ -45,9 +43,6 @@ export default {
 				</a>
 			</div>
 	
-			<div class="icon-comments">
-				<img src="./icon-comments.png" alt="">
-			</div>
 			<div class="comments">
 				<a href="#">
 					<slot>22</slot>
