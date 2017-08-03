@@ -1,8 +1,9 @@
 export default {
-	data() {
-		return {
-			expanded: true
-		};
+	props: {
+		expanded: {
+			type: Boolean,
+			default: true
+		}
 	},
 	methods: {
 		toggle() {
