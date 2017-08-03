@@ -11,18 +11,18 @@
 						<li class="blog-ipsum"><i class="fa li fa-arrow-circle-right"></i>WORDPRESS</li>
 						<li class="blog-ipsum"><i class="fa li fa-arrow-circle-right"></i>ICONS</li>
 				</blog-unordered>
-                
+
                 <h3 class="recent-post">RECENT POSTS</h3>
 
 				<recent-post-arrow class="recent-post-arrow">
 				        <li class="post-arrow"><i class="fa li fa-angle-right"></i>Curabitur vitae velit</li>
 						<li class="digits">25 May 2013</li>
-						<li class="post-arrow"><i class="fa li fa-angle-right"></i>Vivamus at elit quis urna</li> 
+						<li class="post-arrow"><i class="fa li fa-angle-right"></i>Vivamus at elit quis urna</li>
 						<li class="text">adipiscing iaculis</li>
 						<li class="digits">25 May 2013</li>
 						<li class="post-arrow"><i class="fa li fa-angle-right"></i>Curabitur vitae velit</li>
 						<li class="digits">25 May 2013</li>
-						<li class="post-arrow"><i class="fa li fa-angle-right"></i>Vivamus at elit quis urna</li> 
+						<li class="post-arrow"><i class="fa li fa-angle-right"></i>Vivamus at elit quis urna</li>
 						<li class="text">adipiscing iaculis</li>
 						<li class="digits">25 May 2013</li>
 				</recent-post-arrow>

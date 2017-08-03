@@ -1,0 +1,39 @@
+.progress-semi-radial {
+	padding: 0;
+	margin-right: 25px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	color: #7f8c8c;
+}
+
+.progress-semi-radial .progress-semi-radial-overflow {
+	overflow: hidden;
+	width: auto;
+	height: 60px;
+	margin-bottom: -30px;
+}
+
+.progress-semi-radial .progress-semi-radial-bar {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	box-sizing: border-box;
+	border: 15px solid #76c7c0;
+	border-bottom-color: #e2534b;
+	border-right-color: #e2534b;
+}
+
+.progress-semi-radial .value {
+	display: block;
+	font-size: 30px;
+	line-height: 36px;
+}
+
+.progress-semi-radial .heading {
+	display: block;
+	font-size: 16px;
+	line-height: 19px;
+	text-transform: uppercase;
+}
+

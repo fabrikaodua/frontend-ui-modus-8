@@ -17,21 +17,19 @@ export default {
 </script>
 
 
-
-
 <template>
 
-	
+
 	<header class="page-header">
 		<content-wrapper>
 		<main-logo class="header-logo"> </main-logo>
-	
+
 		<main-menu class="header-menu"> </main-menu>
 
 		<search-box class="header-search"> </search-box>
-	
-		
+
+
 	</content-wrapper>
 	</header>
-	
+
 </template>
