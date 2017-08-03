@@ -3,7 +3,7 @@
 <script>
 	export default {
 		props: ['src', 'alt']
-	}
+	};
 
 </script>
 
