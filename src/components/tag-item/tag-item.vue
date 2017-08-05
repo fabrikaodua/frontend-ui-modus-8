@@ -1,6 +1,15 @@
 <style src="./tag-item.css" />
 
+<script>
+export default {
+	components: {  },
+	props: {
+		active: Boolean,
+	}
+}
+</script>
+
 <template>
-	 <tag-item class="tag-item"><a href="#"><slot></slot></a></tag-item>
+	 <div class="tag-item" :class="{'state-active': active}"><a href="#"><slot></slot></a></div>
 </template>
 
