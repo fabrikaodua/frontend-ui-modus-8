@@ -1,20 +1,21 @@
 .teaser-item {
 	position: relative;
-	height: 270px;
+	min-height: 270px;
 }
 
 .teaser-item > .teaser-text {
 	margin-bottom: 50px;
+	margin-left: 600px;
+
 }
 
 .teaser-item > h4 {
-	font-weight: 600;
+	margin-left: 600px;
 }
 
 .teaser-item > .link-external {
 	font-weight: 600;
-	position: absolute;
-	left: 600px;
+	margin-left: 600px;
 }
 
 .teaser-item > .button-control {
@@ -23,8 +24,10 @@
 }
 
 .teaser-item > .teaser-img {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
 	display: block;
-	float: left;
 	height: 270px;
 	width: 570px;
 	border-radius: 6px;

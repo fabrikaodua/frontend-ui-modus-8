@@ -1,7 +1,24 @@
+
+
 export default {
+	data() {
+		return {
+			shown: false
+		};
+	},
+	mounted() {
+		document.addEventListener('click', this.hide, true);
+	},
+	destroyed() {
+		document.removeEventListener('click', this.hide, true);
+	},
 	methods: {
+
+		hide() {
+			this.shown = false;
+		},
 		toggle() {
-			document.querySelector('.search-box .search-box-input').classList.toggle('shown');
+			this.shown = !this.shown;
 		}
 	}
 };

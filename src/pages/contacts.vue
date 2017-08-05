@@ -6,7 +6,7 @@
 	import FormFeedback from '../components/form-feedback/form-feedback.vue';
 	import AddressInfo from '../components/address-info/address-info.vue';
 	import PageFooter from '../components/page-footer/page-footer.vue';
-	
+
 
 	export default {
 		components: {
@@ -39,7 +39,7 @@
 				<address-info class="page-contacts-address"></address-info>
 			</div>
 			<span class="form-h">Send inquiry</span>
-			<form-feedback class="contacts-form"></form-feedback>				
+			<form-feedback class="contacts-form"></form-feedback>
 		</content-wrapper>
 
 		<page-footer/>

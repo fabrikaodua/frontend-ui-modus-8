@@ -1,4 +1,4 @@
 
 describe('Module', () => {
-  require('./spec/main.js');
+	require('./spec/main.js');
 });

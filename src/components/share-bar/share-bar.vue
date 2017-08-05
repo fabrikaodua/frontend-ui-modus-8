@@ -19,7 +19,7 @@
 
 			<button type="button" class="button-left"></button>
 			<button type="button" class="button-right"></button>
-			
+
 		</div>
 
 	</div>

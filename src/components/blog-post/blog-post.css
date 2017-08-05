@@ -1,6 +1,6 @@
 .blog-post {
 	position: relative;
-	width: 870px;
+	max-width: 870px;
 	min-height: 590px;
 	border-bottom: 3px solid #e5e6e6;
 	margin-bottom: 40px;
@@ -12,8 +12,6 @@
 
 .blog-post .datum {
 	box-sizing: border-box;
-	width: 70px;
-	height: 73px;
 	background-color: #fff;
 	border-radius: 5px;
 	border-bottom: 3px solid #e5e6e6;
@@ -31,7 +29,6 @@
 
 .datum-date {
 	display: block;
-	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: 800;
 	text-align: center;
@@ -43,8 +40,8 @@
 	position: absolute;
 	top: 0;
 	left: 100px;
-	width: 770px;
-	height: 300px;
+	max-width: 770px;
+	max-height: 300px;
 	border-bottom: 3px solid #e5e6e6;
 }
 
@@ -56,16 +53,14 @@
 .blog-post .blog-post-link::after {
 	display: inline-block;
 	vertical-align: middle;
-	width: 12px;
-	height: 13px;
+	max-width: 12px;
+	max-height: 13px;
 	margin-left: 10px;
-	content: "";
+	content: '';
 	background: url(./arrow-blog.png) no-repeat 0 0;
 }
 
 .blog-article {
 	position: absolute;
 	top: 330px;
-	width: 800px;
-	height: auto;
 }

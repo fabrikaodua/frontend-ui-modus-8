@@ -18,7 +18,7 @@ export default {
 				<div class="bottom-wrapper-part">
 					<article class="bottom-part part-logo">
 						<img src="./page-logo/modus.png" alt="logo" width="192" heigth="21" class="main-logo">
-						
+
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec.</p>
 
 						<ul class="part-phone">
@@ -74,7 +74,7 @@ export default {
 											<td class="blog-text part-none">
 											Lorem ipsum dolor sit amet, consectetur adipiscing elit
 											</td>
-											
+
 										</tr>
 										<tr >
 											<td class="blog-data">
@@ -102,7 +102,7 @@ export default {
 											<td class="blog-text part-none">
 											Lorem ipsum dolor sit amet, consectetur adipiscing elit
 											</td>
-											
+
 										</tr>
 										<tr class="part-bottom-none">
 											<td class="blog-data">
@@ -114,7 +114,7 @@ export default {
 											</td>
 										</tr>
 									</table>
-							</div>  
+							</div>
 						</div>
 					</article>
 				</div>
@@ -125,13 +125,12 @@ export default {
 				<div class="modus-versus">2013  ModusVersus</div>
 				<nav class="fa-go-tw-rs">
 					<a href="" alt="facebook"><span class="facebook"></span></a>
-					<a href="" alt="google"><span class="google"></span></a> 
-					<a href="" alt="twitter"><span class="twitter"></span></a> 
-					<a href="" alt="rss"><span class="rss"></span></a> 
+					<a href="" alt="google"><span class="google"></span></a>
+					<a href="" alt="twitter"><span class="twitter"></span></a>
+					<a href="" alt="rss"><span class="rss"></span></a>
 				</nav>
 			</content-wrapper>
 		</div>
    </div>
 </template>
-
 

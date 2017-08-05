@@ -85,7 +85,6 @@
 }
 
 .page-footer .part-phone-list:last-child {
-    font-family: 'Open Sans', sans-serif;
     font-style: italic;
     font-size: 20px;
     word-spacing: 5px;
@@ -97,7 +96,6 @@
 }
 
 .page-footer .part-phone-mail:last-child {
-    font-family: 'Open Sans', sans-serif;
     font-style: italic;
     font-weight: 600;
     font-size: 20px;
@@ -195,7 +193,6 @@
 }
 
 .page-footer .from {
-    font-family: 'Open Sans', sans-serif;
     font-style: italic;
 }
 

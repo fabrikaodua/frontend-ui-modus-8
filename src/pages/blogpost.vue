@@ -10,7 +10,7 @@
 <template>
 	<body>
 		<page-header />
-		
+
 		Blog post
 		<share-bar />
 	</body>
