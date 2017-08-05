@@ -36,5 +36,3 @@
 		</ul>
 	</nav>
 </template>
-
-<script src="./main-menu.js"></script>
