@@ -103,3 +103,17 @@
 	background-repeat: no-repeat;
 	background-position: 5px 11px;
 }
+
+/* respons */
+.menu-icon {
+	display: none;
+}
+
+@media (max-width: 900px) {
+	.menu-icon {
+		display: block;
+	}
+	.main-menu > .menu-list > .menu-item {
+		display: none;
+	}
+}
