@@ -19,11 +19,12 @@
 	"scripts": {
 		"start": "neutrino start",
 		"build": "neutrino build",
-		"test": "neutrino test",
+		"test": "",
 		"test:watch": "neutrino test --watch",
 		"coverage": "neutrino test --coverage",
 		"lint": "neutrino lint",
 		"stylelint": "neutrino stylelint",
+		"eslint": "eslint --ext .js,.vue src/",
 		"precommit": "npm run lint",
 		"prepush": "npm test"
 	},
@@ -37,8 +38,7 @@
 	"devDependencies": {
 		"husky": "0.14.3",
 		"neutrino": "6.1.5",
-		"neutrino-preset-fabrika": "2.0.0",
-		"eslint-plugin-vue": "*"
+		"neutrino-preset-fabrika": "2.1.1"
 	},
 	"engines": {
 		"node": ">=6.9.0",

@@ -1,8 +1,19 @@
 
-const packageManifest = require('../../package.json');
+import Vue from 'vue';
+import packageManifest from '../../package.json';
+import Body from '../../src/body.vue';
+import router from '../../src/router';
 
 describe(packageManifest.name, () => {
-  it('test 1 to be 1', () => {
-    expect(1).toEqual(1);
-  });
+	it('modules tree is correct', () => {
+		expect(Body).toBeTruthy();
+		expect(Body).not.toEqual({});
+		expect(router).toBeTruthy();
+		expect(router).not.toEqual({});
+	});
+
+	it('body can be mounted', () => {
+		const body = new Vue(Body).$mount();
+		expect(body).toBeInstanceOf(Vue);
+	});
 });
