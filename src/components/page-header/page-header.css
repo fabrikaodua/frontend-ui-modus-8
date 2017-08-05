@@ -21,13 +21,58 @@
 }
 
 .header-search {
-	position: absolute;
+	position: relative;
 	top: 20px;
-	left: 1050px;
+	left: 50px;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
-	.page-header {
-		height: 60px;
+@media (min-width: 320px) and (max-width: 900px) {
+	.header-search {
+		left: 140px;
+	}
+     
+	.header-logo {
+		position: relative;
+		float: left;
+		left: 38%;
+	}
+
+	.header-menu {
+		left: 30px;
+		top: 25px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+	.header-logo {
+		position: relative;
+		float: left;
+		left: 30%;
+	}
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+	.header-logo {
+		position: relative;
+		float: left;
+		left: 20px;
+	}
+}
+
+@media (max-width: 390px) {
+	.header-search {
+		top: -5px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 350px) {
+	.header-logo {
+		position: relative;
+		float: left;
+		left: 20%;
+	}
+	 
+	.header-menu {
+		left: 20px;
 	}
 }
