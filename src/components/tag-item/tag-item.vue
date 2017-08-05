@@ -10,6 +10,6 @@ export default {
 </script>
 
 <template>
-	 <div class="tag-item" :class="{'state-active': active}"><a href="#"><slot></slot></a></div>
+	<a href="#" class="tag-item" :class="{'state-active': active}"><slot></slot></a>
 </template>
 
