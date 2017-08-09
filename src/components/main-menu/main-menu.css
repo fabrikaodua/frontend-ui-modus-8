@@ -76,6 +76,7 @@
 	display: block;
 }
 
+
 .main-menu .sub-menu .link-sub {
 	box-sizing: border-box;
 	display: block;
@@ -106,14 +107,52 @@
 
 /* respons */
 .menu-icon {
-	display: none;
+	display: block;
 }
 
 @media (max-width: 900px) {
 	.menu-icon {
 		display: block;
+		background-color: #76c7c0;
+		border: none;
 	}
+
 	.main-menu > .menu-list > .menu-item {
+		display: block;
+		color: #7f8c8c;
+	}
+
+	.menu-list {
+		color: #7f8c8c;
+		background: #f3f3f3;
+		right: 50px;
+		margin-top: 27px;
+		height: 400px;
+		text-align: center;
+	}
+
+	.main-menu .menu-item > .link {
+		color: #7f8c8c;
+		margin-top: 20px;
+	}
+
+	.main-menu .menu-item > .link:hover {
+		background: none;
+		border-bottom: none;
+	}
+
+	.main-menu {
+		width: 200px;
+	}
+
+}
+
+@media (min-width: 900px) {
+	.menu-icon {
 		display: none;
 	}
-}
+
+	.menu-list {
+		display: inline-block;
+	}   
+} 
