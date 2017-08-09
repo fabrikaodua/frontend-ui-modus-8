@@ -145,6 +145,10 @@
 		width: 200px;
 	}
 
+	.menu-list.isnot-show {
+		display: none;
+	}
+
 }
 
 @media (min-width: 900px) {
