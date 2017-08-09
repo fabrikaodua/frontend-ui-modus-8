@@ -119,26 +119,28 @@
 
 	.main-menu > .menu-list > .menu-item {
 		display: block;
-		color: #7f8c8c;
 	}
 
 	.menu-list {
-		color: #7f8c8c;
-		background: #f3f3f3;
+		background: #ececec;
 		right: 50px;
 		margin-top: 27px;
-		height: 400px;
-		text-align: center;
+		height: 350px;
+		border-radius: 5px;
 	}
 
 	.main-menu .menu-item > .link {
 		color: #7f8c8c;
-		margin-top: 20px;
+		margin-top: 40px;
 	}
 
 	.main-menu .menu-item > .link:hover {
-		background: none;
 		border-bottom: none;
+	}
+
+	.main-menu .current {
+		border-bottom: none;
+		background: none;
 	}
 
 	.main-menu {
@@ -149,6 +151,27 @@
 		display: none;
 	}
 
+	.main-menu .sub-menu {
+		background: #ececec;
+		top: 228px;
+		left: 200px;
+	}
+
+	.sub-menu > .sub-item {
+		background: #ececec;
+	}
+
+	.main-menu .sub-menu .link-sub {
+		color: #7f8c8c;
+	}
+
+	.main-menu .sub-menu > .sub-item:hover {
+		background-color: #e8645a;
+	}
+
+	.main-menu .sub-menu .link-sub:hover {
+		color: #7f8c8c;
+	}
 }
 
 @media (min-width: 900px) {
