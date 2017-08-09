@@ -145,7 +145,7 @@
 		width: 200px;
 	}
 
-	.menu-list.isnot-show {
+	.menu-list.state-hidden {
 		display: none;
 	}
 
