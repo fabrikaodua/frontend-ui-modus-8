@@ -4,6 +4,8 @@ import packageManifest from '../../package.json';
 import Body from '../../src/body.vue';
 import router from '../../src/router';
 
+jest.mock('vue2-google-maps');
+
 describe(packageManifest.name, () => {
 	it('modules tree is correct', () => {
 		expect(Body).toBeTruthy();
