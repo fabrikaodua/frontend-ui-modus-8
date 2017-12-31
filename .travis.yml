@@ -17,10 +17,10 @@ deploy:
   local_dir: build
   on:
     branch: master
-notifications:
-    slack: 
-      on_pull_requests: true
-      rooms:
-        - fabrikafrontend:Rj7FzEUdapSihjbouEbWzkmf
-      on_success: change # default: always
-      on_failure: change # default: always
+# notifications:
+#     slack: 
+#       on_pull_requests: true
+#       rooms:
+#         - fabrikafrontend:Rj7FzEUdapSihjbouEbWzkmf
+#       on_success: change # default: always
+#       on_failure: change # default: always
