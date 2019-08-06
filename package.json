@@ -32,7 +32,7 @@
 		"jquery": "3.2.1",
 		"normalize-css": "2.3.1",
 		"vue": "*",
-		"vue-router": "2.7.0",
+		"vue-router": "3.1.1",
 		"vue2-google-maps": "0.8.4"
 	},
 	"devDependencies": {
